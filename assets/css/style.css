@@ -9,8 +9,30 @@ body {
 }
 
 .bottom-border {
-		margin-bottom: 20px;
-		border-bottom: 3px solid #ddd;
-		padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
 }
 
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box-relative {
+	position: relative;
+}
+
+#box-absolute {
+	position: absolute;
+	width: 300px;
+	background: #fff;
+	margin-bottom: 20px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	opacity: .8;
+}
